@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Settings Screen</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>IDOO</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+        <!-- To do : clock.js -->
+      </div>
+      <div class="status-bar__column">
+        <span>78%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__colum">
+        <a href="more.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__colum">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__colum">
+        <i class="fas fa-search fa-2x"></i>
+      </div>
+    </header>
+    <main class="main-screen">
+      <ul class="settings-list">
+        <li class="settings-list__setting">
+          <div class="settings-list__setting-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notice</span>
+          </div>
+          <div class="settings-list__setting-column"></div>
+        </li>
+        <li class="settings-list__setting">
+          <div class="settings-list__setting-column">
+            <i class="fas fa-flask"></i>
+            <span>Kakao Lab</span>
+          </div>
+          <div class="settings-list__setting-column"></div>
+        </li>
+        <li class="settings-list__setting">
+          <div class="settings-list__setting-column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings-list__setting-column">Latest Version</div>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="badge nav__notification">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__setting"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your screen is too large</span>
+      <span>please resize screen or rotate your phone</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/5a143f93f4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
